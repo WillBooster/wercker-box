@@ -12,4 +12,6 @@ RUN apk update && apk add --no-cache maven \
     openjdk11-jdk \
     pango-dev \
     python2 \
-    yarn
+    yarn \
+  && gem update --system \
+  && gem install bundler
