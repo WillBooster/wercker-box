@@ -1,4 +1,4 @@
-FROM ruby:2.5-alpine
+FROM ruby:alpine
 MAINTAINER Kazunori Sakamoto
 
 ENV TZ=Asia/Tokyo
